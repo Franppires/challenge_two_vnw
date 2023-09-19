@@ -1,0 +1,103 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* cabeçalho  */
+header {
+  background-color: #A620D6;
+  height: 120px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+ul { 
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+li {
+  list-style: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px;
+}
+
+li:hover {  
+  background-color: #E8A6FF;
+
+}
+
+/*produtos*/
+.imagemProduto { 
+  width: 135px;
+  height: 135px;
+}
+
+section { 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 60px;
+  padding: 60px 0;
+}
+
+.loja {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 10px;
+}
+
+input[type="radio"]{
+  -webkit-appearance: none;
+  background-color: #D9D9D9;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+input{
+  background-color: #D9D9D9;
+  border: none;
+  padding: 5px;
+  width: 250px;
+}
+
+input[type="radio"]:checked{
+  background-color: #E8A6FF;
+}
+
+footer {
+  background-color: #E8A6FF;
+  height: 119px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  padding: 20px;
+  gap: 20px;
+}
+
+.botaoComprar, .botaoEnviar  {
+  background-color: #D9D9D9;
+  padding: 0 10px ;
+  border: none;
+  padding: 5px;
+}
+
+.botaoComprar:hover{ 
+  background-color: #E8A6FF;
+}
+
+.botaoEnviar:hover{ 
+  background-color: #A620D6;
+  color: #FFFFFF;
+}
