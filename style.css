@@ -13,6 +13,8 @@ header {
   display: flex;
   justify-content: center; 
   align-items: center; 
+  position: fixed;
+  width: 100vw;
 }
 
 ul { 
@@ -38,8 +40,8 @@ li:hover {
 
 /*produtos*/
 .imagemProduto { 
-  width: 135px;
-  height: 135px;
+  width: 200px;
+  height: 200px;
 }
 
 section { 
@@ -48,6 +50,7 @@ section {
   align-items: center; 
   gap: 60px;
   padding: 60px 0;
+  height: 100vh;
 }
 
 .loja {
